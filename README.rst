@@ -23,4 +23,7 @@ A libravatar client for Python thats built on modern Technology
 .. |Lines of Code Badge| image:: https://tokei.rs/b1/github/baseplate-admin/python_strip_whitespace
    :alt: Lines of Code
    :target: https://github.com/baseplate-admin/python_strip_whitespace
-   
+
+
+Introduction :
+--------------
