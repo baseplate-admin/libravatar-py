@@ -19,3 +19,4 @@ allow_prereleases = true
 
 [scripts]
 build = 'python setup.py bdist_wheel'
+publish = 'twine upload dist/* --verbose'
