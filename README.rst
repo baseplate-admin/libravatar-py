@@ -1,3 +1,6 @@
+A libravatar client for Python thats built on modern Technology
+===============================================================
+
 |Pepy.tech Badge| |PyPi Version Badge| |Python Versions Badge| |License Badge| |Code Style| |Lines of Code Badge|
 
 .. |Pepy.tech Badge| image:: https://static.pepy.tech/personalized-badge/libravatar-py?period=week&units=international_system&left_color=grey&right_color=orange&left_text=Downloads
