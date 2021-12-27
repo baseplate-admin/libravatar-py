@@ -35,6 +35,15 @@ Why did I write this library:
 While working on the Libravatar client project I came across the well built  `pyLibravatar <https://pypi.org/project/pyLibravatar>`_  library. The last update was at Jun 28, 2015 ( Thats over 6 years ago when I was writing this ). So thats why I decided to write this library. It mimics the API of `pyLibravatar <https://pypi.org/project/pyLibravatar>`_ but with asyncio spice.
 
 Why use "libravatar-py" ?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
 *   Provides API for different kinds of usage.
-*   
+*   Built with modern techknology.
+*   No unnecessary codes. ( My goal was to keep the library as small as possible )
+*   Fully Fedarated library.
+
+Why shouldn't you use "libravatar-py" ?
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+*   I donno ? If you do please do a pull request fixing this.
+
+
+
