@@ -1,11 +1,12 @@
 import asyncio
+
 from typing import Dict
 
 from httpx._models import Response
 from ._query import httpx_get_avatar
 
 
-def libravatar_url(email: str, params: Dict[str, int | str]) -> str:
+def libravatar_url(email: str, params: Dict[str, int | str] = {}) -> str:
     """
     Parameter:
         email : str
@@ -20,7 +21,7 @@ def libravatar_url(email: str, params: Dict[str, int | str]) -> str:
     return asyncio.run(httpx_get_avatar(email, params)).url
 
 
-def libravatar_img_tag(email: str, params: Dict[str, int | str]) -> str:
+def libravatar_img_tag(email: str, params: Dict[str, int | str] = {}) -> str:
     """
     Parameter:
         email : str
@@ -37,7 +38,7 @@ def libravatar_img_tag(email: str, params: Dict[str, int | str]) -> str:
     return result
 
 
-def libravatar_raw_image(email: str, params: Dict[str, int | str]) -> bytes:
+def libravatar_raw_image(email: str, params: Dict[str, int | str] = {}) -> bytes:
     """
     Parameter:
         email : str
@@ -49,6 +50,7 @@ def libravatar_raw_image(email: str, params: Dict[str, int | str]) -> bytes:
     Returns:
         Raw binary data of the image
     """
+
     return asyncio.run(httpx_get_avatar(email, params)).read()
 
 
