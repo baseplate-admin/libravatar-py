@@ -51,7 +51,7 @@ async def httpx_get_avatar(
             f: str = Force default ( 'y' for forcing default image )
     """
     # Use async and http2
-    client = httpx.AsyncClient(http2=True)
+    client = httpx.AsyncClient(http2=True, follow_redirects=True)
 
     # Email needs to be hashed with MD5.
     # https://wiki.libravatar.org/api/
@@ -61,7 +61,7 @@ async def httpx_get_avatar(
     # Will get Https when available
     # Fallback to http
     avatar_url = await query_dns(email)
-    
+
     # Format the address like this
     # https://seccdn.libravatar.org/avatar/00df28f68f674fb6c4e59dc00ded9df3
     # The avatar_url has something like this https://seccdn.libravatar.org/avatar/
