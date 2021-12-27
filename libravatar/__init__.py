@@ -52,7 +52,7 @@ def libravatar_raw_image(email: str, params: Dict[str, int | str]) -> bytes:
     return asyncio.run(httpx_get_avatar(email, params)).read()
 
 
-def libravatar_raw_query(*args, **kwargs) -> Response:
+async def libravatar_raw_query(*args, **kwargs) -> Response:
     """
     Function:
         Provides raw access to lower level API
@@ -61,4 +61,4 @@ def libravatar_raw_query(*args, **kwargs) -> Response:
     Returns:
         any
     """
-    return asyncio.run(httpx_get_avatar(*args, **kwargs))
+    return httpx_get_avatar(*args, **kwargs)
