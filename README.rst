@@ -47,3 +47,21 @@ Why shouldn't you use "libravatar-py" ?
 
 
 
+User guide :
+============
+
+Installation :
+--------------
+
+Install with pip from pypi (No extra dependencies):
+
+.. code-block:: python
+
+      $ python -m pip install libravatar-py
+
+
+Install with pip from github ( Development | Not Recommended for Production )::
+    
+      $ python -m pip install https://codeload.github.com/baseplate-admin/libravatar-py/zip/refs/heads/main
+
+
