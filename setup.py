@@ -21,7 +21,7 @@ install_requires = [
 
 setup_kwargs = setup(
     name="libravatar-py",
-    version="0.0.1",
+    version="0.0.2",
     description="A libravatar client for Python thats built on modern Technology",
     long_description=long_description,
     author="baseplate-admin",

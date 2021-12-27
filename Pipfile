@@ -20,3 +20,4 @@ allow_prereleases = true
 [scripts]
 build = 'python setup.py bdist_wheel'
 publish = 'twine upload dist/* --verbose'
+test-readme = 'python -m readme_renderer README.rst -o ./new.html'
