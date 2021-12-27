@@ -27,3 +27,4 @@ A libravatar client for Python thats built on modern Technology
 
 Introduction :
 --------------
+While working on the Libravatar client project I came across the _`pyLibravatar<https://pypi.org/project/pyLibravatar/>`_ library. The last update was at Jun 28, 2015. So thats why I decided to write this library. It mimics the API of _`pyLibravatar<https://pypi.org/project/pyLibravatar/>`_ but with asyncio spice
