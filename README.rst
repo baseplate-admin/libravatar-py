@@ -27,7 +27,7 @@ A libravatar client for Python thats built on modern Technology
 
 Introduction :
 --------------
-Friendly fork of `pyLibravatar <https://launchpad.net/pylibravatar>`_.
+Friendly fork of pyLibravatar.
 
 
 Why did I write this library:
@@ -107,9 +107,9 @@ Call any of these 4 methods.
     from io import BytesIO
     
     res = Image.open(BytesIO(res))
-    
-    
-``libravatar_raw_query`` function ( Essentially passes the *args, **kwargs to httpx_get_avatar ) :
+
+
+``libravatar_raw_query`` function ( Essentially passes the {args, kwargs} to httpx_get_avatar ):
 
 .. code-block:: python
     
@@ -117,7 +117,8 @@ Call any of these 4 methods.
     # Note this this must be called from an async function
     res = await libravatar_raw_query(email="someone@example.com", {})
     # All httpx variables available in res
-    
+
+
 Contributing :
 ==============
 If you like this project add a star. If you have problems or suggestions please put them in the `Issue Tracker <https://github.com/baseplate-admin/libravatar-py/issues>`_. If you like to add features. Fork this repo and submit a Pull Request. 😛
