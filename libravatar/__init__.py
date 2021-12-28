@@ -21,7 +21,9 @@ def libravatar_url(email: str, params: Dict[str, int | str] = {}) -> str:
     return asyncio.run(httpx_get_avatar(email, params)).url
 
 
-def libravatar_img_tag(email: str, params: Dict[str, int | str] = {}) -> str:
+def libravatar_img_tag(
+    email: str, _alt: str = "Avatar for {}", params: Dict[str, int | str] = {}
+) -> str:
     """
     Parameter:
         email : str
@@ -34,7 +36,9 @@ def libravatar_img_tag(email: str, params: Dict[str, int | str] = {}) -> str:
         <img src={url} alt="Avatar for {email}' />
     """
     url = asyncio.run(httpx_get_avatar(email, params)).url
-    result = f"<img src={url} alt='Avatar for {email}' />"
+    alt = _alt.format(email)
+
+    result = f"<img src={url} alt='{alt}' />"
     return result
 
 
