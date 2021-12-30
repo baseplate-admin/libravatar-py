@@ -122,3 +122,8 @@ Call any of these 4 methods.
 Contributing :
 ==============
 If you like this project add a star. If you have problems or suggestions please put them in the `Issue Tracker <https://github.com/baseplate-admin/libravatar-py/issues>`_. If you like to add features. Fork this repo and submit a Pull Request. 😛
+
+Updates :
+=========
+The library is feature complete ( in my opinion ).
+
