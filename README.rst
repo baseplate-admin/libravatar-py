@@ -82,7 +82,7 @@ Call any of these 4 methods.
     # https://seccdn.libravatar.org/avatar/16d113840f999444259f73bac9ab8b10
  
  
-``libravatar_img_tag`` function ( This will wrap the libravatar url in a <img /> tag ) :
+``libravatar_img_tag`` function ( This will wrap the libravatar url in a <img /> tag. You can also customize _alt text ) :
 
 .. code-block:: python
    
