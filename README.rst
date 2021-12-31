@@ -32,7 +32,7 @@ Friendly fork of `pyLibravatar <https://launchpad.net/pylibravatar>`_.
 
 Why did I write this library:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-While working on the Libravatar client project I came across the well built  `pyLibravatar <https://pypi.org/project/pyLibravatar>`_  library. The last update was at Jun 28, 2015 ( Thats over 6 years ago when I was writing this ). So thats why I decided to write this library. It mimics the API of `pyLibravatar <https://pypi.org/project/pyLibravatar>`_ but with asyncio spice.
+While working on the Libravatar client project I came across the well built  `pyLibravatar <https://pypi.org/project/pyLibravatar>`_  library. The last update was at Jun 28, 2015 ( Thats over 6 years ago when I was writing this ). So thats why I decided to write this library. It mimics the API  ( and functionality ) of `pyLibravatar <https://pypi.org/project/pyLibravatar>`_ but with asyncio spice.
 
 Why use "libravatar-py" ?
 ~~~~~~~~~~~~~~~~~~~~~~~~~
