@@ -27,7 +27,7 @@ A libravatar client for Python thats built on modern Technology
 
 Introduction :
 --------------
-Friendly fork of pyLibravatar.
+Friendly fork of `pyLibravatar <https://launchpad.net/pylibravatar>`.
 
 
 Why did I write this library:
