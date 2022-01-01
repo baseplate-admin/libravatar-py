@@ -44,7 +44,7 @@ Why use "libravatar-py" ?
 
 Why shouldn't you use "libravatar-py" ?
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-*   I donno ? If you do please do a pull request fixing this.
+*   I donno ? If you do please submit a Pull Request
 
 
 
