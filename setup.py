@@ -37,7 +37,7 @@ setup_kwargs = setup(
     extras_require=extras_require,
     # zip_safe=False,
     python_requires=">=3.7",
-    license="GPLv3",
+    license="MIT",
     platforms="any",
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -47,6 +47,6 @@ setup_kwargs = setup(
         "Programming Language :: Python :: 3.8",
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
-        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: OSI Approved :: MIT License",
     ],
 )
