@@ -25,7 +25,7 @@ setup_kwargs = setup(
     description="A libravatar client for Python thats built on modern Technology",
     long_description=long_description,
     author="baseplate-admin",
-    author_email="zarifahanf@outlook.com",
+    author_email="",
     # 'maintainer': 'baseplate-admin',
     # 'maintainer_email': None,
     keywords="python3 avatar libravatar async httpx",
