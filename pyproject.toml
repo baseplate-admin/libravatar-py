@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "libravatar-py"
-version = "0.1.0"
+version = "1.0.1"
 description = "Friendly fork of pyLibravatar for async support."
 authors = ["baseplate-admin"]
 license = "MIT"
-readme = "README.rst"
+readme = "README.md"
 packages = [{include = "libravatar"}]
 
 [tool.poetry.dependencies]
