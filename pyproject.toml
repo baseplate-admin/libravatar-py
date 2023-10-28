@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "libravatar-py"
+version = "0.1.0"
+description = "Friendly fork of pyLibravatar for async support."
+authors = ["baseplate-admin"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+httpx = "^0.25.0"
+dnspython = "^2.4.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
