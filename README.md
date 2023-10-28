@@ -34,13 +34,13 @@ While working on the Libravatar client project I came across the well built [pyL
 
 Install with pip from pypi (No extra dependencies):
 
-``` python
+```bash
 $ python -m pip install libravatar-py
 ```
 
 Install with pip from github ( Development | Not Recommended for Production ):
-```python
-    $ python -m pip install https://codeload.github.com/baseplate-admin/libravatar-py/zip/refs/heads/main
+```bash
+$ python -m pip install https://codeload.github.com/baseplate-admin/libravatar-py/zip/refs/heads/main
 ```
 ## Usage:
 
