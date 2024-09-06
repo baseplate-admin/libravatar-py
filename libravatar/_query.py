@@ -32,6 +32,8 @@ d:
         pagan: return an image containing a random retro adventure game character using pagan
 """
 
+# Use async and http2
+client = httpx.AsyncClient(http2=True, follow_redirects=True)
 
 async def httpx_get_avatar(
     email: str,
@@ -50,8 +52,6 @@ async def httpx_get_avatar(
             d: str = Default URL for missing images ( fallback url )
             f: str = Force default ( 'y' for forcing default image )
     """
-    # Use async and http2
-    client = httpx.AsyncClient(http2=True, follow_redirects=True)
 
     # Email needs to be hashed with MD5.
     # https://wiki.libravatar.org/api/
